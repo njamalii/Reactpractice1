@@ -1,0 +1,56 @@
+@import "tailwindcss";
+h1{
+  text-align: center;
+}
+/* Modal */
+.modal{
+  border:1px solid black;
+  background-color: rgb(190, 185, 185);
+  position:fixed;
+  top:0;
+  left:0;
+}
+.modal-header{
+  background-color: grey;
+}
+.closemodal{
+  background-color: red;
+  color:black;
+  cursor: pointer;
+}
+.closemodal:hover{
+  font-weight: bold;
+}
+.modal-content{
+  text-align: center;
+}
+.modal-content h2{
+  font-weight: bold;
+  font-style: italic;
+  font-family: cursive;
+}
+/* Sidebar */
+.sidebar{
+  border:1px solid black;
+  width:20%;
+  height:100%;
+  position:fixed;
+  right:0;
+  top:0;
+  background-color: rgb(192, 190, 190);
+}
+.sidebar-header{
+  background-color: grey;
+}
+.closesidebar{
+  background-color: red;
+  color:black;
+  cursor:pointer;
+}
+.closesidebar:hover{
+  font-weight: bold;
+}
+.sidebar-content{
+  text-align: center;
+  font-style: italic;
+}
