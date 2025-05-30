@@ -1,6 +1,7 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my first React practice .
+Contains modals,sidebar,counter,show and hide text and getting values from input and displaying.
 
 Currently, two official plugins are available:
 
